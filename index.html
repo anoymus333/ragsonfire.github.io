@@ -1,24 +1,91 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <link rel="stylesheet" href="style.css">
-    <title>Aditya Regmi</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Aditya Portfolio</title>
+
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background-color: #0f172a;
+      color: white;
+    }
+
+    .container {
+      max-width: 800px;
+      margin: auto;
+      padding: 60px 20px;
+      text-align: center;
+    }
+
+    h1 {
+      color: #38bdf8;
+      margin-bottom: 10px;
+    }
+
+    h2 {
+      margin-top: 40px;
+      color: #ffffff;
+    }
+
+    p {
+      color: #cbd5e1;
+    }
+
+    ul {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+    }
+
+    ul li {
+      margin: 6px 0;
+      font-size: 18px;
+    }
+
+    .card {
+      background: #1e293b;
+      padding: 20px;
+      margin-top: 20px;
+      border-radius: 12px;
+    }
+
+    .contact {
+      margin-top: 10px;
+      color: #cbd5e1;
+    }
+  </style>
 </head>
+
 <body>
+
+  <div class="container">
+
     <h1>Hi, I'm Aditya Regmi</h1>
     <p>Aspiring IT Student & Web Developer</p>
 
     <h2>Skills</h2>
-    <ul>
+    <div class="card">
+      <ul>
         <li>HTML</li>
         <li>CSS</li>
         <li>JavaScript</li>
-    </ul>
+      </ul>
+    </div>
 
     <h2>Projects</h2>
-    <p>My projects will appear here soon.</p>
+    <div class="card">
+      <p>My projects will appear here soon.</p>
+    </div>
 
     <h2>Contact</h2>
-    <p>Email: your-email@example.com</p>
+    <div class="card">
+      <p class="contact">Email: your-email@example.com</p>
+    </div>
+
+  </div>
+
 </body>
 </html>
